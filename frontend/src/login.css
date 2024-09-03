@@ -1,0 +1,95 @@
+body {
+     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: flex-start; /* Align to the left */
+    padding: 20px;
+   color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #5EAAA8;
+  }
+  
+  .header img {
+    margin-right: 20px; /* Adjust the space between the logo and the text */
+    height: 100px;
+    width: 100px;
+  }
+  h2{
+    color:#344C64;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    flex: 1; /* Take up the remaining space */
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #f0f8ff;
+  }
+  
+  .div {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    
+  
+  }
+  
+  .div h2 {
+    margin-bottom: 20px;
+    color:#0F67B1;
+    text-align: center;
+  }
+  
+  .div form {
+    display: flex;
+    flex-direction: column;
+    color:#0F67B1;
+  }
+  
+  .div input[type="text"],
+  .div input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button[type="submit"] {
+    padding: 10px;
+    background-color: #54c8f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .button[type="submit"]:hover {
+    background-color: #08b3f7;
+  }
+  
+  .profile-image {
+    height: 100px;
+    width: 100px;
+  }
+  
