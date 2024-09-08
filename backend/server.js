@@ -24,7 +24,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 app.use(cors(
   {
-    origin:[""],
+    origin:["https://odcomplete-qyg1.vercel.app/"],
     methods:["POST","GET"],
     credentials:true
   }
